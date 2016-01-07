@@ -1,0 +1,633 @@
+﻿[2016.01.04-02.46.18:971][  0]Log file open, 01/03/16 18:46:18
+[2016.01.04-02.46.18:971][  0]LogInit:Display: Running engine for game: Diner
+[2016.01.04-02.46.18:971][  0]LogInit:Display: RandInit(-1425453556) SRandInit(-1425453556).
+[2016.01.04-02.46.18:971][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.04-02.46.18:971][  0]LogStats: Stats thread started
+[2016.01.04-02.46.18:971][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.01.04-02.46.18:971][  0]LogInit: API Version: 2579680
+[2016.01.04-02.46.18:971][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.01.04-02.46.18:971][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.04-02.46.18:971][  0]LogInit: Build Configuration: Development
+[2016.01.04-02.46.18:971][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.01.04-02.46.18:971][  0]LogInit: Command line:  
+[2016.01.04-02.46.18:971][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.01.04-02.46.18:971][  0]LogInit: Rocket: 1
+[2016.01.04-02.46.18:988][  0]LogInit: Using libcurl 7.41.0
+[2016.01.04-02.46.18:988][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.04-02.46.18:988][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.04-02.46.18:988][  0]LogInit:  - other features:
+[2016.01.04-02.46.18:988][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.04-02.46.18:988][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.04-02.46.18:988][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.04-02.46.18:988][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.04-02.46.18:988][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.04-02.46.18:988][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.04-02.46.18:988][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.04-02.46.18:988][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.04-02.46.18:988][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.04-02.46.18:988][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.04-02.46.19:004][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.04-02.46.19:024][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.04-02.46.19:033][  0]LogInit: Object subsystem initialized
+[2016.01.04-02.46.19:034][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.01.04-02.46.19:035][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matthew/Documents/Unreal Projects/Diner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.04-02.46.19:035][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.04-02.46.19:035][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matthew/Documents/Unreal Projects/Diner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.04-02.46.19:035][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.01.04-02.46.19:035][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matthew/Documents/Unreal Projects/Diner/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.04-02.46.19:052][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.04-02.46.19:052][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.04-02.46.19:063][  0]LogInit: Computer: BATTLESTAR
+[2016.01.04-02.46.19:063][  0]LogInit: User: Matthew
+[2016.01.04-02.46.19:063][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.04-02.46.19:063][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2016.01.04-02.46.19:063][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.04-02.46.19:064][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.04-02.46.19:064][  0]LogMemory: Process Physical Memory: 48.21 MB used, 48.21 MB peak
+[2016.01.04-02.46.19:064][  0]LogMemory: Process Virtual Memory: 22.27 MB used, 22.27 MB peak
+[2016.01.04-02.46.19:064][  0]LogMemory: Physical Memory: 4403.62 MB used, 8075.18 MB total
+[2016.01.04-02.46.19:064][  0]LogMemory: Virtual Memory: 295.74 MB used, 134217728.00 MB total
+[2016.01.04-02.46.19:129][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.01.04-02.46.19:356][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.01.04-02.46.19:949][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.04-02.46.19:949][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.01.04-02.46.19:968][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2016.01.04-02.46.19:968][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2016.01.04-02.46.19:969][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.04-02.46.19:969][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.04-02.46.19:969][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.04-02.46.19:983][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.46.19:983][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.04-02.46.19:983][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.04-02.46.20:003][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.04-02.46.20:019][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.04-02.46.21:163][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.01.04-02.46.21:184][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.04-02.46.21:205][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.04-02.46.21:226][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.04-02.46.21:252][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.04-02.46.21:273][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.04-02.46.21:292][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.04-02.46.21:311][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.04-02.46.21:333][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.04-02.46.21:352][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.04-02.46.21:371][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.04-02.46.21:392][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.04-02.46.21:461][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.04-02.46.21:479][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.04-02.46.21:497][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.04-02.46.21:516][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.04-02.46.21:516][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.04-02.46.21:840][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.04-02.46.22:585][  0]LogDerivedDataCache: Loaded boot cache 0.75s 53MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.01.04-02.46.22:585][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.01.04-02.46.22:585][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.04-02.46.22:585][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.04-02.46.22:585][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.04-02.46.22:585][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.04-02.46.22:734][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.04-02.46.22:748][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.04-02.46.23:011][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.04-02.46.23:104][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.01.04-02.46.23:105][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.01.04-02.46.23:143][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.04-02.46.23:143][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.04-02.46.23:576][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.04-02.46.39:061][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.01.04-02.46.39:112][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.04-02.46.39:131][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.04-02.46.39:755][  0]SourceControl: Info Source control is disabled
+[2016.01.04-02.46.39:758][  0]SourceControl: Info Source control is disabled
+[2016.01.04-02.46.39:773][  0]SourceControl: Info Source control is disabled
+[2016.01.04-02.46.39:788][  0]SourceControl: Info Source control is disabled
+[2016.01.04-02.46.40:215][  0]LogObj: 26440 objects as part of root set at end of initial load.
+[2016.01.04-02.46.40:215][  0]LogUObjectAllocator: 5438856 out of 0 bytes used by permanent object pool.
+[2016.01.04-02.46.40:314][  0]LogEngine: Initializing Engine...
+[2016.01.04-02.46.40:370][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.01.04-02.46.40:374][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.01.04-02.46.40:562][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.04-02.46.40:566][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-02.46.40:578][  0]LogInit: FAudioDevice initialized.
+[2016.01.04-02.46.40:617][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.01.04-02.46.40:621][  0]LogInit: Texture streaming: Disabled
+[2016.01.04-02.46.40:654][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.04-02.46.40:654][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.01.04-02.46.40:655][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6c72a4f34c262198a7708db9b68f0fac|62291b1299124bb987eb3840dc21af0e|10dca3ff-59a3-463a-a188-a74ae374cfa5
+[2016.01.04-02.46.40:655][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.04-02.46.40:703][  0]LogInit: Transaction tracking system initialized
+[2016.01.04-02.46.40:916][  0]BlueprintLog: New page: Editor Load
+[2016.01.04-02.46.42:363][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.01.04-02.46.42:363][  0]LogConsoleResponse:Display: 
+[2016.01.04-02.46.42:552][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.04-02.46.42:969][  0]SourceControl: Info Source control is disabled
+[2016.01.04-02.46.42:970][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.04-02.46.42:970][  0]LightingResults: New page: Lighting Build
+[2016.01.04-02.46.42:994][  0]MapCheck: New page: Map Check
+[2016.01.04-02.46.42:994][  0]LightingResults: New page: Lighting Build
+[2016.01.04-02.46.43:006][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A271C49A0
+[2016.01.04-02.46.49:417][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.04-02.46.49:587][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.04-02.46.51:090][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.04-02.46.51:174][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.877ms to complete.
+[2016.01.04-02.46.51:174][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.205
+[2016.01.04-02.46.51:444][  0]LogCollectionManager: Loaded 0 collections in 0.002039 seconds
+[2016.01.04-02.46.51:451][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1807 classes and 307 folders.
+[2016.01.04-02.46.51:598][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.04-02.46.51:763][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.04-02.46.51:784][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.01.04-02.46.51:896][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.04-02.46.51:905][  0]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.46.51:923][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.04-02.46.51:952][  0]LogLoad: Full Startup: 34.45 seconds (BP compile: 0.55 seconds)
+[2016.01.04-02.46.51:970][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.04-02.46.51:970][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.04-02.46.52:048][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.04-02.46.52:087][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.04-02.46.52:366][  1]LogRenderer: Reallocating scene render targets to support 1080x512 (Frame:2).
+[2016.01.04-02.46.52:958][  7]LogAssetRegistry: Asset discovery search completed in 13.9080 seconds
+[2016.01.04-02.46.54:053][ 58]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.46.55:436][126]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.46.56:752][204]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.46.58:549][263]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/dinerscene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.04-02.46.58:560][263]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.46.58:615][263]LightingResults: New page: Lighting Build
+[2016.01.04-02.46.58:736][263]LoadErrors: New page: Loading map: dinerscene.umap
+[2016.01.04-02.46.58:739][263]MapCheck: New page: Map Check
+[2016.01.04-02.46.58:739][263]LightingResults: New page: Lighting Build
+[2016.01.04-02.46.58:779][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A175B7920
+[2016.01.04-02.46.59:476][263]LogAIModule: Creating AISystem for world dinerscene
+[2016.01.04-02.46.59:514][263]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_28)
+[2016.01.04-02.46.59:522][263]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.04-02.46.59:640][263]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.04-02.47.00:032][263]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 390.736ms to complete.
+[2016.01.04-02.47.00:032][263]LogFileHelpers: Loading map 'dinerscene' took 1.486
+[2016.01.04-02.47.44:641][842]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.47.45:331][882]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.47.46:324][939]LogEditorFactories: Performing atomic reimport of [D:/GameDev/Blender_Files/DinerVR/floor.fbx]
+[2016.01.04-02.47.46:326][939]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.47.46:371][939]LogFbx: Loading FBX Scene from D:/GameDev/Blender_Files/DinerVR/floor.fbx
+[2016.01.04-02.47.46:376][939]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.47.46:383][939]LogFbx:Warning: Triangulating static mesh FLOOR
+[2016.01.04-02.47.46:387][939]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.47.46:409][939]LogStaticMesh: Building static mesh floor...
+[2016.01.04-02.47.46:410][939]LogStaticMesh: Built static mesh [0.001559.2s] /Game/Models/floor.floor
+[2016.01.04-02.47.46:417][939]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2016.01.04-02.47.46:417][939]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.04-02.47.46:417][939]LogPhysics:Warning: Failed to cook convex: /Game/Models/floor.floor 0 (FlipX:0). The remaining elements will not get cooked.
+[2016.01.04-02.47.46:418][939]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.47.46:418][939]LogEditorFactories: -- imported successfully
+[2016.01.04-02.47.46:419][939]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2016.01.04-02.47.46:419][939]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.04-02.47.46:419][939]LogPhysics:Warning: Failed to cook convex: /Game/Models/floor.floor 0 (FlipX:0). The remaining elements will not get cooked.
+[2016.01.04-02.47.46:436][939]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.47.51:900][148]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.48.14:798][570]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.48.14:810][570]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:\GameDev\Blender_Files\DinerVR\Ext_Wall.fbx)
+[2016.01.04-02.48.14:818][570]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.01.04-02.48.14:818][570]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.01.04-02.48.14:818][570]LogFbx: ItemName: Model, ItemCount : 1
+[2016.01.04-02.48.14:832][570]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.48.20:081][570]LogFbx: Loading FBX Scene from D:\GameDev\Blender_Files\DinerVR\Ext_Wall.fbx
+[2016.01.04-02.48.20:088][570]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.48.20:090][570]LogFbx:Warning: Triangulating static mesh Ext_Wall
+[2016.01.04-02.48.20:144][570]LogStaticMesh: Building static mesh Ext_Wall...
+[2016.01.04-02.48.20:147][570]LogStaticMesh: Built static mesh [0.050311.2s] /Game/Models/Ext_Wall.Ext_Wall
+[2016.01.04-02.48.23:368][629]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.48.24:679][629]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.48.24:753][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Ext_Wall" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/Ext_Wall.uasset" SILENT=true
+[2016.01.04-02.48.24:771][629]LogSavePackage: Save=13.625443ms
+[2016.01.04-02.48.24:771][629]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Ext_WallA59B2FFC4DDB3FBC37CFD09D12FB602C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/Ext_Wall.uasset'
+[2016.01.04-02.48.24:825][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/floor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/floor.uasset" SILENT=true
+[2016.01.04-02.48.24:847][629]LogSavePackage: Save=11.544057ms
+[2016.01.04-02.48.24:847][629]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/floorA48F8E8B42E3D41F78E21D8F8A507C6A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/floor.uasset'
+[2016.01.04-02.48.26:217][658]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.48.26:390][668]LogActorFactory: Actor Factory created Ext_Wall
+[2016.01.04-02.48.28:257][771]LogActorFactory: Actor Factory created Ext_Wall
+[2016.01.04-02.48.53:580][ 13]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.04-02.48.53:848][ 13]PIE: New page: PIE session: dinerscene (Jan 3, 2016, 10:48:53 AM)
+[2016.01.04-02.48.53:857][ 13]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_dinerscene
+[2016.01.04-02.48.53:874][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016941s)
+[2016.01.04-02.48.53:875][ 13]LogAIModule: Creating AISystem for world dinerscene
+[2016.01.04-02.48.53:876][ 13]LogPlayLevel: PIE: World Init took: (0.002648s)
+[2016.01.04-02.48.53:882][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/dinerscene.dinerscene to /Game/UEDPIE_0_dinerscene.dinerscene (0.025073s)
+[2016.01.04-02.48.53:917][ 13]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-02.48.53:930][ 13]LogInit: FAudioDevice initialized.
+[2016.01.04-02.48.54:242][ 13]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.04-02.48.54:536][ 13]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.48.54:543][ 13]LogWorld: Bringing World /Game/UEDPIE_0_dinerscene.dinerscene up for play (max tick rate 60) at 2016.01.03-18.48.54
+[2016.01.04-02.48.54:543][ 13]LogActor:Warning: GameSession /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.48.54:559][ 13]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.48.54:568][ 13]LogWorld: Bringing up level for play took: 0.034335
+[2016.01.04-02.48.55:130][ 13]PIE: Info Play in editor start time for /Game/UEDPIE_0_dinerscene 2.096
+[2016.01.04-02.48.57:493][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A174F74C0
+[2016.01.04-02.49.05:851][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
+[2016.01.04-02.49.08:001][697]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.01.04-02.49.09:752][790]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.01.04-02.49.10:907][850]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.04-02.49.10:907][850]PIE: New page: PIE session: dinerscene (Jan 3, 2016, 10:49:10 AM)
+[2016.01.04-02.49.10:914][850]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_dinerscene
+[2016.01.04-02.49.10:917][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003225s)
+[2016.01.04-02.49.10:918][850]LogAIModule: Creating AISystem for world dinerscene
+[2016.01.04-02.49.10:919][850]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2016.01.04-02.49.10:919][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/dinerscene.dinerscene to /Game/UEDPIE_0_dinerscene.dinerscene (0.004902s)
+[2016.01.04-02.49.10:936][850]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-02.49.10:942][850]LogInit: FAudioDevice initialized.
+[2016.01.04-02.49.10:978][850]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.04-02.49.10:983][850]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.49.10:989][850]LogWorld: Bringing World /Game/UEDPIE_0_dinerscene.dinerscene up for play (max tick rate 60) at 2016.01.03-18.49.10
+[2016.01.04-02.49.10:989][850]LogActor:Warning: GameSession /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.49.10:990][850]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.49.10:990][850]LogWorld: Bringing up level for play took: 0.010020
+[2016.01.04-02.49.10:993][850]PIE: Info Play in editor start time for /Game/UEDPIE_0_dinerscene -0.04
+[2016.01.04-02.49.12:531][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A0D1A39C0
+[2016.01.04-02.49.20:953][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floor)
+[2016.01.04-02.49.28:344][640]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.49.28:380][640]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.49.28:387][640]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.49.28:387][640]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.49.28:391][640]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.49.37:720][ 30]LogRenderer: Reallocating scene render targets to support 1080x520 (Frame:5417).
+[2016.01.04-02.49.46:248][430]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.49.50:512][644]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.50.02:764][258]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.50.06:672][449]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2016.01.04-02.50.06:672][449]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.04-02.50.06:672][449]LogPhysics:Warning: Failed to cook convex: /Game/Models/floor.floor 0 (FlipX:0). The remaining elements will not get cooked.
+[2016.01.04-02.50.06:672][449]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.50.06:672][449]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.50.06:674][449]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2016.01.04-02.50.06:674][449]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.04-02.50.06:674][449]LogPhysics:Warning: Failed to cook convex: /Game/Models/floor.floor 0 (FlipX:0). The remaining elements will not get cooked.
+[2016.01.04-02.50.06:674][449]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.50.06:674][449]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.50.09:203][577]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.50.09:222][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/floor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/floor.uasset" SILENT=true
+[2016.01.04-02.50.09:233][577]LogSavePackage: Save=4.206820ms
+[2016.01.04-02.50.09:233][577]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/floor0D7803E7443A6F1A4369A1A576C45A2C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/floor.uasset'
+[2016.01.04-02.50.12:602][751]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.04-02.50.12:603][751]PIE: New page: PIE session: dinerscene (Jan 3, 2016, 10:50:12 AM)
+[2016.01.04-02.50.12:605][751]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_dinerscene
+[2016.01.04-02.50.12:608][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002713s)
+[2016.01.04-02.50.12:609][751]LogAIModule: Creating AISystem for world dinerscene
+[2016.01.04-02.50.12:609][751]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2016.01.04-02.50.12:609][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/dinerscene.dinerscene to /Game/UEDPIE_0_dinerscene.dinerscene (0.004136s)
+[2016.01.04-02.50.12:629][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A0D404AE0
+[2016.01.04-02.50.12:629][751]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-02.50.12:637][751]LogInit: FAudioDevice initialized.
+[2016.01.04-02.50.12:672][751]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.04-02.50.12:676][751]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.50.12:683][751]LogWorld: Bringing World /Game/UEDPIE_0_dinerscene.dinerscene up for play (max tick rate 60) at 2016.01.03-18.50.12
+[2016.01.04-02.50.12:683][751]LogActor:Warning: GameSession /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.50.12:683][751]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.50.12:683][751]LogWorld: Bringing up level for play took: 0.009621
+[2016.01.04-02.50.12:771][751]PIE: Info Play in editor start time for /Game/UEDPIE_0_dinerscene -0.263
+[2016.01.04-02.50.54:817][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A3325A340
+[2016.01.04-02.52.06:933][600]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.52.07:773][622]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.52.08:877][684]LogEditorFactories: Performing atomic reimport of [D:/GameDev/Blender_Files/DinerVR/table.fbx]
+[2016.01.04-02.52.08:879][684]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.52.08:898][684]LogFbx: Loading FBX Scene from D:/GameDev/Blender_Files/DinerVR/table.fbx
+[2016.01.04-02.52.08:904][684]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.52.08:954][684]LogFbx:Warning: Triangulating static mesh Cube
+[2016.01.04-02.52.08:979][684]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.52.09:003][684]LogStaticMesh: Building static mesh table...
+[2016.01.04-02.52.09:009][684]LogStaticMesh: Built static mesh [0.006803.2s] /Game/Models/table.table
+[2016.01.04-02.52.09:018][684]LogEditorFactories: -- imported successfully
+[2016.01.04-02.52.09:043][684]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.53.56:714][395]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.53.57:971][448]LogEditorFactories: Performing atomic reimport of [D:/GameDev/Blender_Files/DinerVR/barstool2.fbx]
+[2016.01.04-02.53.57:973][448]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.53.57:995][448]LogFbx: Loading FBX Scene from D:/GameDev/Blender_Files/DinerVR/barstool2.fbx
+[2016.01.04-02.53.58:003][448]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.53.58:011][448]LogFbx:Warning: Triangulating static mesh BARSTOOL2
+[2016.01.04-02.53.58:129][448]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.53.58:148][448]LogStaticMesh: Building static mesh barstool2...
+[2016.01.04-02.53.58:169][448]LogStaticMesh: Built static mesh [0.021277.2s] /Game/Models/barstool2.barstool2
+[2016.01.04-02.53.58:184][448]LogEditorFactories: -- imported successfully
+[2016.01.04-02.53.58:193][448]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.54.11:861][256]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.04-02.54.11:861][256]PIE: New page: PIE session: dinerscene (Jan 3, 2016, 10:54:11 AM)
+[2016.01.04-02.54.11:861][256]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_dinerscene
+[2016.01.04-02.54.11:864][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003210s)
+[2016.01.04-02.54.11:865][256]LogAIModule: Creating AISystem for world dinerscene
+[2016.01.04-02.54.11:866][256]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2016.01.04-02.54.11:866][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/dinerscene.dinerscene to /Game/UEDPIE_0_dinerscene.dinerscene (0.005220s)
+[2016.01.04-02.54.11:886][256]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-02.54.11:895][256]LogInit: FAudioDevice initialized.
+[2016.01.04-02.54.11:929][256]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.04-02.54.11:933][256]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.54.11:940][256]LogWorld: Bringing World /Game/UEDPIE_0_dinerscene.dinerscene up for play (max tick rate 0) at 2016.01.03-18.54.11
+[2016.01.04-02.54.11:940][256]LogActor:Warning: GameSession /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.54.11:941][256]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.54.11:941][256]LogWorld: Bringing up level for play took: 0.009905
+[2016.01.04-02.54.11:944][256]PIE: Info Play in editor start time for /Game/UEDPIE_0_dinerscene 0.91
+[2016.01.04-02.55.09:276][640]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.09:902][708]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.10:858][822]LogEditorFactories: Performing atomic reimport of [D:/GameDev/Blender_Files/DinerVR/table.fbx]
+[2016.01.04-02.55.10:865][822]LogFbx: Loading FBX Scene from D:/GameDev/Blender_Files/DinerVR/table.fbx
+[2016.01.04-02.55.10:871][822]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.55.10:874][822]LogFbx:Warning: Triangulating static mesh table
+[2016.01.04-02.55.10:922][822]LogStaticMesh: Building static mesh table...
+[2016.01.04-02.55.10:930][822]LogStaticMesh: Built static mesh [0.033595.2s] /Game/Models/table.table
+[2016.01.04-02.55.10:935][822]LogEditorFactories: -- imported successfully
+[2016.01.04-02.55.10:955][822]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.16:625][ 92]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.floor_5"
+[2016.01.04-02.55.17:271][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A33259D00
+[2016.01.04-02.55.40:807][520]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.41:325][575]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.42:226][680]LogEditorFactories: Performing atomic reimport of [D:/GameDev/Blender_Files/DinerVR/table.fbx]
+[2016.01.04-02.55.42:228][680]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.42:255][680]LogFbx: Loading FBX Scene from D:/GameDev/Blender_Files/DinerVR/table.fbx
+[2016.01.04-02.55.42:261][680]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.55.42:263][680]LogFbx:Warning: Triangulating static mesh table
+[2016.01.04-02.55.42:287][680]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.55.42:309][680]LogStaticMesh: Building static mesh table...
+[2016.01.04-02.55.42:317][680]LogStaticMesh: Built static mesh [0.007538.2s] /Game/Models/table.table
+[2016.01.04-02.55.42:324][680]LogEditorFactories: -- imported successfully
+[2016.01.04-02.55.42:329][680]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.09:080][406]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.09:878][495]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.10:823][607]LogEditorFactories: Performing atomic reimport of [D:/GameDev/Blender_Files/DinerVR/table.fbx]
+[2016.01.04-02.56.10:825][607]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.10:850][607]LogFbx: Loading FBX Scene from D:/GameDev/Blender_Files/DinerVR/table.fbx
+[2016.01.04-02.56.10:856][607]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.04-02.56.10:859][607]LogFbx:Warning: Triangulating static mesh table
+[2016.01.04-02.56.10:884][607]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.10:904][607]LogStaticMesh: Building static mesh table...
+[2016.01.04-02.56.10:910][607]LogStaticMesh: Built static mesh [0.006538.2s] /Game/Models/table.table
+[2016.01.04-02.56.10:920][607]LogEditorFactories: -- imported successfully
+[2016.01.04-02.56.10:948][607]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.23:805][291]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.23:877][291]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.30:175][577]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.30:220][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Ext_Wall" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/Ext_Wall.uasset" SILENT=true
+[2016.01.04-02.56.30:244][577]LogSavePackage: Save=13.858941ms
+[2016.01.04-02.56.30:244][577]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Ext_Wall220BE75641B98FF03D2A308DF80DEFC2.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/Ext_Wall.uasset'
+[2016.01.04-02.56.47:096][381]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.56.47:128][381]LogD3D11RHI: InitD3DDevice
+[2016.01.04-02.57.04:364][221]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.04-02.57.04:365][221]PIE: New page: PIE session: dinerscene (Jan 3, 2016, 10:57:04 AM)
+[2016.01.04-02.57.04:365][221]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_dinerscene
+[2016.01.04-02.57.04:368][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002938s)
+[2016.01.04-02.57.04:368][221]LogAIModule: Creating AISystem for world dinerscene
+[2016.01.04-02.57.04:369][221]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2016.01.04-02.57.04:369][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/dinerscene.dinerscene to /Game/UEDPIE_0_dinerscene.dinerscene (0.004497s)
+[2016.01.04-02.57.04:381][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A2772D440
+[2016.01.04-02.57.04:389][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-02.57.04:399][221]LogInit: FAudioDevice initialized.
+[2016.01.04-02.57.04:433][221]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.04-02.57.04:437][221]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Models/floor.floor:BodySetup_6)
+[2016.01.04-02.57.04:443][221]LogWorld: Bringing World /Game/UEDPIE_0_dinerscene.dinerscene up for play (max tick rate 0) at 2016.01.03-18.57.04
+[2016.01.04-02.57.04:443][221]LogActor:Warning: GameSession /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.57.04:444][221]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_dinerscene.dinerscene:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-02.57.04:444][221]LogWorld: Bringing up level for play took: 0.009479
+[2016.01.04-02.57.04:448][221]PIE: Info Play in editor start time for /Game/UEDPIE_0_dinerscene -0.586
+[2016.01.04-02.57.15:125][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A13A79B20
+[2016.01.04-02.58.17:153][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ext_Wall)
+[2016.01.04-02.59.01:999][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ext_Wall)
+[2016.01.04-02.59.03:032][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ext_Wall2)
+[2016.01.04-02.59.06:232][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ext_Wall)
+[2016.01.04-02.59.07:250][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ext_Wall2)
+[2016.01.04-02.59.35:504][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (table4)
+[2016.01.04-03.00.02:238][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (table3)
+[2016.01.04-03.00.52:304][177]LogD3D11RHI: InitD3DDevice
+[2016.01.04-04.05.02:099][578]LogD3D11RHI: InitD3DDevice
+[2016.01.04-04.05.11:045][108]LogD3D11RHI: InitD3DDevice
+[2016.01.04-04.05.11:210][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A0D1A22A0
+[2016.01.04-04.05.11:233][108]LogSavePackage: Save=23.218977ms
+[2016.01.04-04.05.11:233][108]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/dinerscene_Auto1313261164CE92B5A1E08D988B25CB625.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Autosaves/Game/dinerscene_Auto1.umap'
+[2016.01.04-04.05.11:242][108]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/dinerscene' took 0.076
+[2016.01.04-04.05.11:242][108]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
+[2016.01.04-04.05.11:249][108]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/barstool2] ([1] browsable assets)...
+[2016.01.04-04.05.11:275][108]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/barstool2.barstool2]
+[2016.01.04-04.05.11:275][108]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/barstool2]
+[2016.01.04-04.05.11:275][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/barstool2" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Autosaves/Game/Models/barstool2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.04-04.05.11:297][108]LogSavePackage: Save=12.161588ms
+[2016.01.04-04.05.11:297][108]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/barstool2_Auto1B4D108844A638DC148C497A7BCDB4507.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Autosaves/Game/Models/barstool2_Auto1.uasset'
+[2016.01.04-04.05.11:305][108]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/table] ([1] browsable assets)...
+[2016.01.04-04.05.11:327][108]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/table.table]
+[2016.01.04-04.05.11:327][108]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/table]
+[2016.01.04-04.05.11:327][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/table" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Autosaves/Game/Models/table_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.04-04.05.11:354][108]LogSavePackage: Save=11.944768ms
+[2016.01.04-04.05.11:354][108]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/table_Auto170B281754DA8FD211AF1AA9521813970.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/Autosaves/Game/Models/table_Auto1.uasset'
+[2016.01.04-04.05.11:359][108]LogFileHelpers: Auto-saving content packages took 0.115
+[2016.01.04-04.25.02:814][354]LogD3D11RHI: InitD3DDevice
+[2016.01.04-04.25.04:306][384]LogD3D11RHI: InitD3DDevice
+[2016.01.04-04.25.04:731][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/dinerscene" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/dinerscene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.04-04.25.04:974][384]LogSavePackage: Save=125.914215ms
+[2016.01.04-04.25.04:974][384]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/dinerscene02A486E44E193F6CEBA5839E14C85529.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/dinerscene.umap'
+[2016.01.04-04.25.05:117][384]LogFileHelpers: Saving map 'dinerscene' took 0.776
+[2016.01.04-04.25.05:138][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/barstool2" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/barstool2.uasset" SILENT=true
+[2016.01.04-04.25.05:187][384]LogSavePackage: Save=14.891723ms
+[2016.01.04-04.25.05:187][384]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/barstool256289D8742788289E749329FD132ECCF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/barstool2.uasset'
+[2016.01.04-04.25.05:242][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/table" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/table.uasset" SILENT=true
+[2016.01.04-04.25.05:300][384]LogSavePackage: Save=22.835800ms
+[2016.01.04-04.25.05:300][384]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Saved/tableE431F54142A917A6FDF7039BF242327A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Diner/Content/Models/table.uasset'
+[2016.01.04-04.25.07:177][420]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.04-04.25.07:178][420]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.04-04.25.07:992][421]Cmd: QUIT_EDITOR
+[2016.01.04-04.25.09:612][421]LogExit: Preparing to exit.
+[2016.01.04-04.25.10:294][421]LogExit: Editor shut down
+[2016.01.04-04.25.10:294][421]LogExit: Transaction tracking system shut down
+[2016.01.04-04.25.10:299][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A2AE6DF80
+[2016.01.04-04.25.10:300][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A1AF039C0
+[2016.01.04-04.25.10:810][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A206420C0
+[2016.01.04-04.25.10:810][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A17BDCD60
+[2016.01.04-04.25.10:810][421]LogExit: Object subsystem successfully closed.
+[2016.01.04-04.25.10:831][421]LogD3D11RHI: Shutdown
+[2016.01.04-04.25.10:831][421]LogD3D11RHI: CleanupD3DDevice
+[2016.01.04-04.25.11:062][421]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.04-04.25.11:193][421]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (191)
+[2016.01.04-04.25.11:193][421]LogModuleManager: Shutting down and abandoning module CrashTracker (190)
+[2016.01.04-04.25.11:193][421]LogModuleManager: Shutting down and abandoning module SceneOutliner (189)
+[2016.01.04-04.25.11:193][421]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
+[2016.01.04-04.25.11:193][421]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
+[2016.01.04-04.25.11:194][421]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
+[2016.01.04-04.25.11:201][421]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
+[2016.01.04-04.25.11:201][421]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module StatsViewer (183)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module FoliageEdit (182)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module LandscapeEditor (181)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module ActorPickerMode (180)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module GeometryMode (179)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module TextureAlignMode (178)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module BspMode (177)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module PlacementMode (176)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module AutomationWorker (175)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module CharacterAI (174)
+[2016.01.04-04.25.11:202][421]LogModuleManager: Shutting down and abandoning module SmartSnapping (173)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module ViewportSnapping (172)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module LogVisualizer (171)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (170)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module IntroTutorials (169)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (168)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (167)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (166)
+[2016.01.04-04.25.11:203][421]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (165)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (164)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (163)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (162)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module MergeActors (161)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module SizeMap (160)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module TreeMap (159)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module ReferenceViewer (158)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (157)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2016.01.04-04.25.12:104][421]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (149)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (148)
+[2016.01.04-04.25.12:105][421]LogModuleManager: Shutting down and abandoning module InputBindingEditor (147)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (146)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module SettingsEditor (145)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module ProjectLauncher (144)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module SessionFrontend (143)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module ProfilerClient (142)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (141)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module DeviceManager (140)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module AutomationController (139)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module AutomationWindow (138)
+[2016.01.04-04.25.12:106][421]LogModuleManager: Shutting down and abandoning module Layers (137)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (136)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module DetailCustomizations (135)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module PackagesDialog (134)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module Persona (133)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module Kismet (132)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module GraphEditor (131)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module ClassViewer (130)
+[2016.01.04-04.25.12:107][421]LogModuleManager: Shutting down and abandoning module Toolbox (129)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module ModuleUI (128)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module MovieSceneTools (127)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module OutputLog (126)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module GammaUI (125)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module Documentation (124)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (123)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (122)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module AnalyticsET (121)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module Analytics (120)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module AITestSuite (119)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module GameplayDebugger (118)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module AIModule (117)
+[2016.01.04-04.25.12:108][421]LogModuleManager: Shutting down and abandoning module ProfilerService (116)
+[2016.01.04-04.25.12:215][421]LogModuleManager: Shutting down and abandoning module TaskGraph (115)
+[2016.01.04-04.25.12:215][421]LogModuleManager: Shutting down and abandoning module SubstanceEditor (114)
+[2016.01.04-04.25.12:215][421]LogModuleManager: Shutting down and abandoning module SlateRemote (113)
+[2016.01.04-04.25.12:215][421]LogModuleManager: Shutting down and abandoning module SteamVRController (112)
+[2016.01.04-04.25.12:215][421]LogModuleManager: Shutting down and abandoning module SteamVR (111)
+[2016.01.04-04.25.12:216][421]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (110)
+[2016.01.04-04.25.12:216][421]LogModuleManager: Shutting down and abandoning module OculusRift (109)
+[2016.01.04-04.25.12:216][421]LogModuleManager: Shutting down and abandoning module LeapMotionController (108)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (107)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module CableComponent (106)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module MessagingDebugger (105)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (104)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (103)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module PluginBrowser (102)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module EpicSurvey (101)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module DesktopPlatform (100)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2016.01.04-04.25.12:285][421]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module BlankPlugin (93)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module MainFrame (87)
+[2016.01.04-04.25.12:286][421]LogModuleManager: Shutting down and abandoning module LevelEditor (86)
+[2016.01.04-04.25.12:289][421]LogModuleManager: Shutting down and abandoning module ContentBrowser (85)
+[2016.01.04-04.25.12:291][421]LogModuleManager: Shutting down and abandoning module Paper2DEditor (84)
+[2016.01.04-04.25.12:291][421]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2016.01.04-04.25.12:392][421]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2016.01.04-04.25.12:397][421]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2016.01.04-04.25.12:619][421]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2016.01.04-04.25.12:619][421]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.01.04-04.25.12:619][421]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.01.04-04.25.12:631][421]LogModuleManager: Shutting down and abandoning module Media (77)
+[2016.01.04-04.25.12:631][421]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.01.04-04.25.12:632][421]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2016.01.04-04.25.12:633][421]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2016.01.04-04.25.12:633][421]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2016.01.04-04.25.12:633][421]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2016.01.04-04.25.12:633][421]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module Core (56)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2016.01.04-04.25.12:648][421]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2016.01.04-04.25.12:663][421]LogDerivedDataCache: Shutdown
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2016.01.04-04.25.12:663][421]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2016.01.04-04.25.12:664][421]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.01.04-04.25.12:665][421]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.01.04-04.25.12:667][421]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.01.04-04.25.12:667][421]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.01.04-04.25.12:667][421]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.01.04-04.25.12:667][421]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.01.04-04.25.12:667][421]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.04-04.25.12:677][421]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.04-04.25.12:679][421]LogExit: Exiting.
+[2016.01.04-04.25.12:735][421]Log file closed, 01/03/16 20:25:12
